@@ -4,10 +4,6 @@ import './App.css'
 // import Footer from "./components/Footer";
 // import Button from "./components/Button";
 
-import { useState } from "react";
-import Counter from "./components/Counter";
-import Bulb from "./components/Bulb";
-
 /*
 function App() {
 
@@ -31,6 +27,11 @@ function App() {
 };
 */
 
+import { useState } from "react";
+/*
+import Counter from "./components/Counter";
+import Bulb from "./components/Bulb";
+
 function App(){
 
   return (
@@ -40,5 +41,17 @@ function App(){
     </>
   );
 };
+*/
 
+import Register from "./components/Register";
+import HookExam from './components/Hook';
+
+function App(){
+  return (
+    <>
+      {/* <Register /> */}
+      <HookExam />
+    </>
+  )
+}
 export default App;
