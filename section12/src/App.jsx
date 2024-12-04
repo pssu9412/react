@@ -151,7 +151,7 @@ function App() {
       {/* Routes 컴퍼넌트 안에는 Route 컴퍼넌트만 들어갈 수 있음 */}
       <DiaryStateContext.Provider value={data}>
         <DiaryDispatchContext.Provider 
-          value={(onCreate, onUpdate, onDelete)}>
+          value={{onCreate, onUpdate, onDelete}}>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/new" element={<New />} />
